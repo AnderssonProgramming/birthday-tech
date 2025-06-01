@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🎂 Birthday Surprise Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, interactive birthday surprise app built with React and Tailwind CSS. Perfect for creating a memorable digital birthday card for someone special!
 
-## Available Scripts
+![Birthday Surprise Project](assets/birthday-surprise.jpg)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 📸 **Photo Collage**: Display memorable photos in an attractive grid layout
+- 💌 **Interactive Gift**: Click to reveal a personalized birthday letter
+- 🎵 **Ambient Video**: Embed a YouTube video to set the mood with music or memories
+- ✨ **Background Elements**: Animated decorative elements that bring the page to life
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project leverages modern web technologies:
 
-### `npm test`
+- **React 19**: Utilizes the latest React features for building interactive UI
+- **TypeScript**: Provides type safety and better developer experience
+- **Tailwind CSS**: Used for styling with utility-first CSS framework
+- **Lucide React**: Supplies beautiful, consistent icons
+- **PostCSS**: Processes the CSS with plugins like autoprefixer
+- **Create React App**: Bootstrapped with CRA for zero configuration setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository
+```bash
+git clone https://github.com/AnderssonProgramming/birthday.git
+cd birthday
+```
 
-### `npm run eject`
+2. Install dependencies
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. (Optional) Build the project
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app will open in your browser at [http://localhost:3000](http://localhost:3000).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 Customization
 
-## Learn More
+You can easily customize this project to create a personalized birthday surprise:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Photos**: Update the `PhotoCollage` component with your own images
+- **Letter**: Modify the letter content in the `Letter` component
+- **Video**: Change the embedded video URL in the `AmbientVideo` component
+- **Colors**: Adjust the color scheme in the tailwind classes or in tailwind.config.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+Made with ❤️ for someone special
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
